@@ -172,8 +172,8 @@ header .search-form {
 	display: flex;
 	justify-content: center;
 	align-items: center;
-	outline: none;
 	border: none;
+	outline: none;
 	margin-right: 40px;
 	height: var(--height, 72px);
 }
@@ -234,8 +234,9 @@ header .icons {
 		align-items: center;
 	}
 }
-@media (max-width: 500px) {
+@media (max-width: 415px) {
 	header .icons {
+		width: 10%;
 		font-size: 15px;
 	}
 }
@@ -292,7 +293,7 @@ header .main-nav > li > a:hover::before {
 @media (max-width: 500px) {
 	header .main-nav > li > a {
 		padding: 15px;
-  	font-size: 15px;
+		font-size: 15px;
 	}
 }
 header .main-nav li:nth-child(3) div {
